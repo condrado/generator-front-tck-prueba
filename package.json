@@ -1,0 +1,37 @@
+{
+  "name": "generator-front-tck",
+  "version": "0.0.1",
+  "description": "Generador semillas Fron TCK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/condrado/generator-front-tck.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "tck",
+    "component",
+    "javascript",
+    "builder",
+    "scaffold",
+    "generator",
+    "s9s"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/condrado/generator-front-tck/issues"
+  },
+  "homepage": "https://github.com/condrado/generator-front-tck#readme",
+  "dependencies": {
+    "decamelize": "^6.0.0",
+    "uppercamelcase": "^3.0.0",
+    "yeoman-generator": "^5.7.0"
+  },
+  "files": [
+    "app"
+  ]
+}
