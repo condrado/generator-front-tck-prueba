@@ -1,0 +1,1 @@
+# generator-front-tck
