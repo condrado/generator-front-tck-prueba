@@ -13,7 +13,7 @@ module.exports = class extends Generator {
     this.answers = await this.prompt([{
       type: 'input',
       name: 'name',
-      message: 'Your project name',
+      message: 'Your project name:',
       default: this.appname, // appname return the default folder name to project
       store: true,
     },
