@@ -1,6 +1,6 @@
 {
   "name": "generator-front-tck-test-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generador semillas Fron TCK",
   "main": "index.js",
   "scripts": {
