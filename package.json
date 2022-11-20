@@ -1,11 +1,8 @@
 {
   "name": "generator-front-tck-prueba",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generador semillas Fron TCK",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/condrado/generator-front-prueba.git"
@@ -20,7 +17,7 @@
     "generator",
     "s9s"
   ],
-  "author": "",
+  "author": "Conrado",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/condrado/generator-front-prueba/issues"
