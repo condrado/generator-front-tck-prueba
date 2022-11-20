@@ -1,0 +1,23 @@
+// ITCSS structure
+// https://github.com/aarongarciah/itcss-sample
+
+// 01. Settings
+@import '01-settings/index';
+
+// 02. Tools
+@import '02-tools/index';
+
+// 03. Generic
+@import '03-generic/index';
+
+// 04. Elements
+@import '04-elements/index';
+
+// 05. Objects
+@import '05-objects/index';
+
+// 06. Components
+@import '06-components/index';
+
+// 99. Utilities
+@import '99-utilities/index';
