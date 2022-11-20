@@ -1,0 +1,38 @@
+{
+    "name": "project-base-html",
+    "version": "1.0.0",
+    "main": "server.js",
+    "repository": "https://github.com/condrado/project-base-html.git",
+    "author": "Conrado Ramos",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "yarn build:clear && yarn build:move-assets && yarn build:css && yarn build:minify-css && yarn build:clear-temp",
+        "build:css": "sass src/scss/main.scss dist/css/temp/main.temp.css && yarn build:clean-css",
+        "build:move-assets": "npx rimraf dist/ && yarn build:copy-files",
+        "build:clear": "npx rimraf dist",
+        "build:clear-temp": "npx rimraf dist/css/temp",
+        "build:copy-files": "copy-files-from-to",
+        "build:clean-css": "cleancss --format beautify dist/css/temp/main.temp.css -o dist/css/main.css",
+        "build:minify-css": "cleancss -o dist/css/main.min.css dist/css/main.temp.css --source-map",
+        "watch": "npm-run-all --parallel watch:*",
+        "watch:css": "nodemon -e scss -x \"yarn build:css\"",
+        "watch:html": "nodemon src/*.html -x \"yarn build:copy-files\"",
+        "watch:live-server": "node live-server.js"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "dist/**"
+        ]
+    },
+    "dependencies": {
+        "clean-css-cli": "^5.6.1",
+        "copy-files-from-to": "^3.2.2",
+        "live-server": "^1.2.2",
+        "nodemon": "^2.0.20",
+        "normalize.scss": "^0.1.0",
+        "npm-run-all": "^4.1.5",
+        "sass": "^1.56.1",
+        "sass-mq": "^6.0.0"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "copyFiles": [
+        {
+            "from": "src/img/*.png",
+            "to": "dist/img"
+        },
+        {
+            "from": "src/*.html",
+            "to": "dist"
+        }
+    ],
+    "copyFilesSettings": {
+        "whenFileExists": "overwrite"
+    }
+}
