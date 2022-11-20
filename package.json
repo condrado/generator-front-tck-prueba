@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/condrado/generator-front-tck.git"
+    "url": "git+https://github.com/condrado/generator-front-prueba.git"
   },
   "keywords": [
     "yeoman-generator",
@@ -23,12 +23,10 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/condrado/generator-front-tck/issues"
+    "url": "https://github.com/condrado/generator-front-prueba/issues"
   },
-  "homepage": "https://github.com/condrado/generator-front-tck#readme",
+  "homepage": "https://github.com/condrado/generator-front-prueba#readme",
   "dependencies": {
-    "decamelize": "^6.0.0",
-    "uppercamelcase": "^3.0.0",
     "yeoman-generator": "^5.7.0"
   },
   "files": [
