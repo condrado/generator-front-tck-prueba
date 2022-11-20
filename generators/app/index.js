@@ -13,14 +13,14 @@ module.exports = class extends Generator {
     this.answers = await this.prompt([{
       type: 'input',
       name: 'name',
-      message: 'Your project name:',
+      message: 'Your project name::',
       default: this.appname, // appname return the default folder name to project
       store: true,
     },
     {
       type: 'list',
       name: 'templateType',
-      message: 'Select the template wanted:',
+      message: 'Select the template wanted::',
       choices: ['Front-End React', 'Node API builder', 'FullStack Application']
     }]);
   }
